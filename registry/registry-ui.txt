@@ -1,0 +1,1 @@
+helm -n dev upgrade --install docker-registry-ui joxit/docker-registry-ui --set ui.proxy=true --set ui.dockerRegistryUrl=http://registry-service:5000
